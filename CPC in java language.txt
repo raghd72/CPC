@@ -1,0 +1,155 @@
+CPC in java and c++ languages 
+
+
+1-
+
+
+package mavenproject5;
+
+/**
+ *
+ * @author raghd abdullah
+ */
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+     Scanner scanner = new Scanner(System.in);
+   char a= scanner.next().charAt(0);
+   char b= scanner.next().charAt(0);
+   char c= scanner.next().charAt(0);
+    if (a==b &&b==c){
+        System.out.println("win");}
+    else
+            System.out.println("lost");
+    }
+    }
+
+
+2- 
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int c=0;
+   int n= scanner.nextInt();
+   while(n>=1){
+        if (n>=100){
+            n-=100;
+            c++;
+        }
+        else if (n>=20){
+            n-=20;
+            c++;
+        }
+          else if (n>=10){
+            n-=10;
+            c++;
+        }
+         else if (n>=5){
+            n-=5;
+            c++;
+        }
+         else{
+            n-=1;
+            c++;} 
+   }
+                System.out.println(c);
+   
+    }
+}
+
+3- 
+import java.util.Scanner;
+public class Mavenproject7 {
+
+    public static void main(String[] args) {
+ Scanner scanner = new Scanner(System.in);
+   int a= scanner.nextInt();
+      int b= scanner.nextInt();
+if(0<a&&b==0)
+            System.out.println("gold");
+else if(0<b&&a==0)
+            System.out.println("sliver");
+else
+            System.out.println("Alloy");
+    }
+}
+4- Evaluation
+
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+ 
+Scanner s =new Scanner(System.in);
+    int n=s.nextInt();
+   if(4==n||n==5){
+        System.out.println("I'm very excited");
+   }
+         else if(1<=n||n>=3){
+             System.out.println("I'm a little excited");
+        }
+        else if(n==0){
+            System.out.println("I'm not excited");
+        }
+        
+    
+    }
+}
+5- Gift
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int n;
+    int sum1=0;
+    int sum2=0;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        int a;
+        cin>>a;
+        sum1+=a;
+    }
+    for(int i=0;i<n;i++){
+        int b;
+        cin>>b;
+        sum2+=b;
+    }
+    if(sum1==sum2){
+       cout<<"fair";
+    }
+    else
+         cout<<"not fair";
+    }
+
+6-Stock Market
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+     int t;
+    cin>>t;
+    while(t--){
+       int x,y;
+        cin>>x>>y;
+    
+            
+            cout<<(y-x)<<'\n';
+        
+        
+        
+    }
+}
+           
+
+7- 
+
+
+
